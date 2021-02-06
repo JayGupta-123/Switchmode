@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#container{
+    width: 100%;
+    min-height: 700px;
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+img{
+    height: 50%;
+    width: 45%;
+    margin: 20px;
+    user-select: none; 
+}
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
+
+.p1, .p2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px 50px;
+    text-align: justify;
+}
+
+button{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    padding: 8px 24px;
+    outline: none;
+    border: none;
+    border: 2px solid black;
+    text-transform: capitalize;
+    font-weight: 700;
+    user-select: none;  
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+}
